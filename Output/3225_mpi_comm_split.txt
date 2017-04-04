@@ -1,0 +1,67 @@
+Sender: LSF System <phpcadmin@nxta230>
+Subject: Job 3225: </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/mpi_comm_split; wait> in cluster <phpc_cluster> Done
+
+Job </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/mpi_comm_split; wait> was submitted from host <login-florida-poly> by user <bradleytrowbridge06> in cluster <phpc_cluster>.
+Job was executed on host(s) <1*nxta230>, in queue <medium_priority>, as user <bradleytrowbridge06> in cluster <phpc_cluster>.
+                            <1*nxta232>
+                            <1*nxta233>
+                            <1*nxta234>
+                            <1*nxta236>
+                            <1*nxta238>
+                            <1*nxta239>
+                            <1*nxta201>
+                            <1*nxta202>
+                            <1*nxta205>
+                            <1*nxta206>
+                            <1*nxta207>
+                            <1*nxta208>
+                            <1*nxta209>
+                            <1*nxta220>
+                            <1*nxta222>
+                            <1*nxta223>
+                            <1*nxta224>
+                            <1*nxta226>
+                            <1*nxta228>
+</home/bradleytrowbridge06> was used as the home directory.
+</home/bradleytrowbridge06> was used as the working directory.
+Started at Thu Mar 30 16:36:19 2017
+Results reported at Thu Mar 30 16:36:20 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/mpi_comm_split; wait
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :               8.03 sec.
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between total requested memory and actual max usage.)
+
+The output (if any) follows:
+
+WORLD RANK/SIZE: 0/20 --- ROW RANK/SIZE: 0/4
+WORLD RANK/SIZE: 2/20 --- ROW RANK/SIZE: 2/4
+WORLD RANK/SIZE: 10/20 --- ROW RANK/SIZE: 2/4
+WORLD RANK/SIZE: 9/20 --- ROW RANK/SIZE: 1/4
+WORLD RANK/SIZE: 1/20 --- ROW RANK/SIZE: 1/4
+WORLD RANK/SIZE: 8/20 --- ROW RANK/SIZE: 0/4
+WORLD RANK/SIZE: 6/20 --- ROW RANK/SIZE: 2/4
+WORLD RANK/SIZE: 3/20 --- ROW RANK/SIZE: 3/4
+WORLD RANK/SIZE: 4/20 --- ROW RANK/SIZE: 0/4
+WORLD RANK/SIZE: 7/20 --- ROW RANK/SIZE: 3/4
+WORLD RANK/SIZE: 19/20 --- ROW RANK/SIZE: 3/4
+WORLD RANK/SIZE: 12/20 --- ROW RANK/SIZE: 0/4
+WORLD RANK/SIZE: 17/20 --- ROW RANK/SIZE: 1/4
+WORLD RANK/SIZE: 14/20 --- ROW RANK/SIZE: 2/4
+WORLD RANK/SIZE: 18/20 --- ROW RANK/SIZE: 2/4
+WORLD RANK/SIZE: 11/20 --- ROW RANK/SIZE: 3/4
+WORLD RANK/SIZE: 5/20 --- ROW RANK/SIZE: 1/4
+WORLD RANK/SIZE: 16/20 --- ROW RANK/SIZE: 0/4
+WORLD RANK/SIZE: 13/20 --- ROW RANK/SIZE: 1/4
+WORLD RANK/SIZE: 15/20 --- ROW RANK/SIZE: 3/4

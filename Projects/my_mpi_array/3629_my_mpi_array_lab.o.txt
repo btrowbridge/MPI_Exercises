@@ -1,0 +1,67 @@
+Sender: LSF System <phpcadmin@nxta230>
+Subject: Job 3629: </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/my_mpi_array/my_mpi_array_lab.o 160000; wait> in cluster <phpc_cluster> Done
+
+Job </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/my_mpi_array/my_mpi_array_lab.o 160000; wait> was submitted from host <login-florida-poly> by user <bradleytrowbridge06> in cluster <phpc_cluster>.
+Job was executed on host(s) <1*nxta230>, in queue <medium_priority>, as user <bradleytrowbridge06> in cluster <phpc_cluster>.
+                            <1*nxta231>
+                            <1*nxta232>
+                            <1*nxta233>
+                            <1*nxta235>
+                            <1*nxta236>
+                            <1*nxta237>
+                            <1*nxta238>
+                            <1*nxta201>
+                            <1*nxta202>
+                            <1*nxta203>
+                            <1*nxta204>
+                            <1*nxta206>
+                            <1*nxta208>
+                            <1*nxta220>
+                            <1*nxta223>
+                            <1*nxta224>
+                            <1*nxta225>
+                            <1*nxta227>
+                            <1*nxta229>
+</home/bradleytrowbridge06> was used as the home directory.
+</home/bradleytrowbridge06/my_mpi_array> was used as the working directory.
+Started at Tue Apr  4 00:22:15 2017
+Results reported at Tue Apr  4 00:22:15 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/my_mpi_array/my_mpi_array_lab.o 160000; wait
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :               1.83 sec.
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between total requested memory and actual max usage.)
+
+The output (if any) follows:
+
+MPI Application rank 12 killed before MPI_Init() with signal 11
+MPI Application rank 5 killed before MPI_Init() with signal 11
+MPI Application rank 1 killed before MPI_Init() with signal 11
+MPI Application rank 3 killed before MPI_Init() with signal 11
+MPI Application rank 4 killed before MPI_Init() with signal 11
+MPI Application rank 2 killed before MPI_Init() with signal 11
+MPI Application rank 17 killed before MPI_Init() with signal 11
+MPI Application rank 19 killed before MPI_Init() with signal 11
+MPI Application rank 13 killed before MPI_Init() with signal 11
+MPI Application rank 14 killed before MPI_Init() with signal 11
+MPI Application rank 16 killed before MPI_Init() with signal 11
+MPI Application rank 18 killed before MPI_Init() with signal 11
+MPI Application rank 15 killed before MPI_Init() with signal 11
+MPI Application rank 10 killed before MPI_Init() with signal 11
+MPI Application rank 0 killed before MPI_Init() with signal 11
+MPI Application rank 6 killed before MPI_Init() with signal 11
+MPI Application rank 11 killed before MPI_Init() with signal 11
+MPI Application rank 7 killed before MPI_Init() with signal 11
+MPI Application rank 9 killed before MPI_Init() with signal 11
+MPI Application rank 8 killed before MPI_Init() with signal 11
