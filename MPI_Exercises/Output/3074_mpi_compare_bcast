@@ -1,0 +1,48 @@
+Sender: LSF System <phpcadmin@nxta230>
+Subject: Job 3074: <1000 10.txt "/opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/mpi_compare_bcast 1000 10"> in cluster <phpc_cluster> Exited
+
+Job <1000 10.txt "/opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/mpi_compare_bcast 1000 10"> was submitted from host <login-florida-poly> by user <bradleytrowbridge06> in cluster <phpc_cluster>.
+Job was executed on host(s) <1*nxta230>, in queue <medium_priority>, as user <bradleytrowbridge06> in cluster <phpc_cluster>.
+                            <1*nxta233>
+                            <1*nxta237>
+                            <1*nxta201>
+                            <1*nxta204>
+                            <1*nxta220>
+                            <1*nxta223>
+                            <1*nxta224>
+                            <1*nxta225>
+                            <1*nxta226>
+                            <1*nxta227>
+                            <1*nxta228>
+                            <1*nxta229>
+                            <1*nxta240>
+                            <1*nxta241>
+                            <1*nxta242>
+                            <1*nxta243>
+                            <1*nxta244>
+                            <1*nxta245>
+                            <1*nxta246>
+</home/bradleytrowbridge06> was used as the home directory.
+</home/bradleytrowbridge06> was used as the working directory.
+Started at Thu Mar 23 16:28:03 2017
+Results reported at Thu Mar 23 16:28:04 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+1000 10.txt "/opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/mpi_compare_bcast 1000 10"
+------------------------------------------------------------
+
+Exited with exit code 127.
+
+Resource usage summary:
+
+    CPU time :               0.02 sec.
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between total requested memory and actual max usage.)
+
+The output (if any) follows:
+
+/home/bradleytrowbridge06/.lsbatch/1490300882.3074: line 8: 1000: command not found

@@ -1,0 +1,50 @@
+Sender: LSF System <phpcadmin@nxta230>
+Subject: Job 3081: </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/mpi_compare_bcast 1000 10  ; wait> in cluster <phpc_cluster> Done
+
+Job </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/mpi_compare_bcast 1000 10  ; wait> was submitted from host <login-florida-poly> by user <bradleytrowbridge06> in cluster <phpc_cluster>.
+Job was executed on host(s) <1*nxta230>, in queue <medium_priority>, as user <bradleytrowbridge06> in cluster <phpc_cluster>.
+                            <1*nxta231>
+                            <1*nxta233>
+                            <1*nxta234>
+                            <1*nxta235>
+                            <1*nxta238>
+                            <1*nxta239>
+                            <1*nxta201>
+                            <1*nxta202>
+                            <1*nxta203>
+                            <1*nxta204>
+                            <1*nxta205>
+                            <1*nxta206>
+                            <1*nxta207>
+                            <1*nxta209>
+                            <1*nxta220>
+                            <1*nxta221>
+                            <1*nxta222>
+                            <1*nxta223>
+                            <1*nxta224>
+</home/bradleytrowbridge06> was used as the home directory.
+</home/bradleytrowbridge06> was used as the working directory.
+Started at Thu Mar 23 16:40:11 2017
+Results reported at Thu Mar 23 16:40:12 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/mpi_compare_bcast 1000 10  ; wait
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :               8.88 sec.
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between total requested memory and actual max usage.)
+
+The output (if any) follows:
+
+Data size = 4000, Trials = 10
+Avg my_bcast time = 0.000068
+Avg MPI_Bcast time = 0.000050

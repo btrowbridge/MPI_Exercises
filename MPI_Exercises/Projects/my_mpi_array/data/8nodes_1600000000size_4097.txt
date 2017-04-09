@@ -1,0 +1,102 @@
+Sender: LSF System <phpcadmin@nxta232>
+Subject: Job 4097: </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 1600000000; wait; echo 'DONE'> in cluster <phpc_cluster> Done
+
+Job </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 1600000000; wait; echo 'DONE'> was submitted from host <login-florida-poly> by user <bradleytrowbridge06> in cluster <phpc_cluster>.
+Job was executed on host(s) <1*nxta232>, in queue <medium_priority>, as user <bradleytrowbridge06> in cluster <phpc_cluster>.
+                            <1*nxta234>
+                            <1*nxta236>
+                            <1*nxta237>
+                            <1*nxta238>
+                            <1*nxta239>
+                            <1*nxta201>
+                            <1*nxta202>
+</home/bradleytrowbridge06> was used as the home directory.
+</home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array> was used as the working directory.
+Started at Sun Apr  9 01:45:48 2017
+Results reported at Sun Apr  9 01:47:02 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 1600000000; wait; echo 'DONE'
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :               524.74 sec.
+    Max Memory :             36758 MB
+    Average Memory :         8454.27 MB
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between total requested memory and actual max usage.)
+    Max Swap :               39211 MB
+
+    Max Processes :          18
+    Max Threads :            19
+
+The output (if any) follows:
+
+MPI task 2 has started...
+MPI task 4 has started...
+Chunk sizes: 200000000
+MPI task 0 has started...
+MPI task 5 has started...
+Chunk sizes: 200000000
+MPI task 6 has started...
+Chunk sizes: 200000000
+MPI task 3 has started...
+MPI task 7 has started...
+Chunk sizes: 200000000
+MPI task 1 has started...
+Starting master task ID: 0
+Chunk sizes: 200000000
+Starting worker task. ID: 2
+Starting worker task. ID: 5
+Chunk sizes: 200000000
+Starting worker task. ID: 6
+Chunk sizes: 200000000
+Starting worker task. ID: 3
+Chunk sizes: 200000000
+Starting worker task. ID: 1
+Starting worker task. ID: 7
+Starting worker task. ID: 4
+Initialized array sum = 36028797018963968.000000
+Sent 200000000 elements to task 1 offset= 200000000
+ID 1 is updating array
+Sent 200000000 elements to task 2 offset= 400000000
+ID 2 is updating array
+Task 1 mysum = 18014398509481984.000000
+Sent 200000000 elements to task 3 offset= 600000000
+ID 3 is updating array
+Task 2 mysum = 36028797018963968.000000
+Sent 200000000 elements to task 4 offset= 800000000
+ID 4 is updating array
+Task 3 mysum = 36028797018963968.000000
+Sent 200000000 elements to task 5 offset= 1000000000
+ID 5 is updating array
+Task 4 mysum = 36028797018963968.000000
+Sent 200000000 elements to task 6 offset= 1200000000
+ID 6 is updating array
+Task 5 mysum = 72057594037927936.000000
+Sent 200000000 elements to task 7 offset= 1400000000
+ID 0 is updating array
+ID 7 is updating array
+Task 6 mysum = 72057594037927936.000000
+Task 7 mysum = 72057594037927936.000000
+Task 0 mysum = 9007199254740992.000000
+Recieving results... 
+ Resulte received, now reducing... 
+Sample results: 
+  0.000000  2.000000  4.000000  6.000000  8.000000
+  400000000.000000  400000000.000000  400000000.000000  400000000.000000  400000000.000000
+  800000000.000000  800000000.000000  800000000.000000  800000000.000000  800000000.000000
+  1200000000.000000  1200000000.000000  1200000000.000000  1200000000.000000  1200000000.000000
+  1600000000.000000  1600000000.000000  1600000000.000000  1600000000.000000  1600000000.000000
+  2000000000.000000  2000000000.000000  2000000000.000000  2000000000.000000  2000000000.000000
+  2400000000.000000  2400000000.000000  2400000000.000000  2400000000.000000  2400000000.000000
+  2800000000.000000  2800000000.000000  2800000000.000000  2800000000.000000  2800000000.000000
+*** Final sum= 2800000000.000000 ***
+DONE

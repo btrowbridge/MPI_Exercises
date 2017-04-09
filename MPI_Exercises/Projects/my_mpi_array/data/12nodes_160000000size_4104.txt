@@ -1,0 +1,134 @@
+Sender: LSF System <phpcadmin@nxta233>
+Subject: Job 4104: </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 160000000; wait; echo 'DONE'> in cluster <phpc_cluster> Done
+
+Job </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 160000000; wait; echo 'DONE'> was submitted from host <login-florida-poly> by user <bradleytrowbridge06> in cluster <phpc_cluster>.
+Job was executed on host(s) <1*nxta233>, in queue <medium_priority>, as user <bradleytrowbridge06> in cluster <phpc_cluster>.
+                            <1*nxta235>
+                            <1*nxta238>
+                            <1*nxta204>
+                            <1*nxta205>
+                            <1*nxta222>
+                            <1*nxta223>
+                            <1*nxta224>
+                            <1*nxta225>
+                            <1*nxta226>
+                            <1*nxta227>
+                            <1*nxta229>
+</home/bradleytrowbridge06> was used as the home directory.
+</home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array> was used as the working directory.
+Started at Sun Apr  9 01:55:36 2017
+Results reported at Sun Apr  9 01:55:52 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 160000000; wait; echo 'DONE'
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :               95.29 sec.
+    Max Memory :             15 MB
+    Average Memory :         15.00 MB
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between total requested memory and actual max usage.)
+    Max Swap :               400 MB
+
+    Max Processes :          8
+    Max Threads :            9
+
+The output (if any) follows:
+
+MPI task 8 has started...
+Chunk sizes: 13333333
+MPI task 3 has started...
+Chunk sizes: 13333333
+MPI task 1 has started...
+MPI task 2 has started...
+MPI task 9 has started...
+MPI task 10 has started...
+Chunk sizes: 13333333
+MPI task 4 has started...
+MPI task 7 has started...
+MPI task 6 has started...
+Chunk sizes: 13333333
+MPI task 5 has started...
+MPI task 11 has started...
+MPI task 0 has started...
+Chunk sizes: 13333333
+Starting master task ID: 0
+Chunk sizes: 13333333
+Starting worker task. ID: 4
+Starting worker task. ID: 8
+Chunk sizes: 13333333
+Starting worker task. ID: 1
+Chunk sizes: 13333333
+Starting worker task. ID: 2
+Starting worker task. ID: 3
+Chunk sizes: 13333333
+Starting worker task. ID: 9
+Starting worker task. ID: 10
+Chunk sizes: 13333333
+Starting worker task. ID: 11
+Chunk sizes: 13333333
+Starting worker task. ID: 7
+Starting worker task. ID: 6
+Chunk sizes: 13333333
+Starting worker task. ID: 5
+Initialized array sum = 4503599627370496.000000
+Sent 13333333 elements to task 1 offset= 13333333
+ID 1 is updating array
+Sent 13333333 elements to task 2 offset= 26666666
+ID 2 is updating array
+Task 1 mysum = 498309957419008.000000
+Sent 13333333 elements to task 3 offset= 39999999
+ID 3 is updating array
+Task 2 mysum = 864738447720448.000000
+Sent 13333333 elements to task 4 offset= 53333332
+ID 4 is updating array
+Task 3 mysum = 1243638382198784.000000
+Sent 13333333 elements to task 5 offset= 66666665
+ID 5 is updating array
+Task 4 mysum = 1642298588790784.000000
+Sent 13333333 elements to task 6 offset= 79999998
+ID 6 is updating array
+Task 5 mysum = 1789447121141760.000000
+Sent 13333333 elements to task 7 offset= 93333331
+ID 7 is updating array
+Sent 13333333 elements to task 8 offset= 106666664
+ID 8 is updating array
+Task 6 mysum = 2062173920559104.000000
+Task 7 mysum = 2954425593233408.000000
+Sent 13333333 elements to task 9 offset= 119999997
+ID 9 is updating array
+Task 8 mysum = 3242864590979072.000000
+Sent 13333333 elements to task 10 offset= 133333330
+ID 10 is updating array
+Task 9 mysum = 3503158668034048.000000
+Sent 13333333 elements to task 11 offset= 146666663
+ID 11 is updating array
+ID 0 is updating array
+Task 10 mysum = 3578876257107968.000000
+Task 0 mysum = 177663100583936.000000
+Recieving results... 
+Task 11 mysum = 3638111640748032.000000
+ Resulte received, now reducing... 
+Sample results: 
+  0.000000  2.000000  4.000000  6.000000  8.000000
+  26666666.000000  26666668.000000  26666670.000000  26666672.000000  26666674.000000
+  53333332.000000  53333336.000000  53333336.000000  53333336.000000  53333340.000000
+  80000000.000000  80000000.000000  80000000.000000  80000000.000000  80000008.000000
+  106666664.000000  106666664.000000  106666672.000000  106666672.000000  106666672.000000
+  133333328.000000  133333328.000000  133333336.000000  133333336.000000  133333336.000000
+  160000000.000000  160000000.000000  160000000.000000  160000000.000000  160000000.000000
+  186666656.000000  186666656.000000  186666672.000000  186666672.000000  186666672.000000
+  213333328.000000  213333328.000000  213333328.000000  213333328.000000  213333344.000000
+  240000000.000000  240000000.000000  240000000.000000  240000000.000000  240000000.000000
+  266666656.000000  266666656.000000  266666656.000000  266666672.000000  266666672.000000
+  293333312.000000  293333312.000000  293333344.000000  293333344.000000  293333344.000000
+*** Final sum= 293333344.000000 ***
+DONE

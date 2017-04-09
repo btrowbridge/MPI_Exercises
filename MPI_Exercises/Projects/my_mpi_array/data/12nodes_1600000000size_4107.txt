@@ -1,0 +1,47 @@
+Sender: LSF System <phpcadmin@nxta234>
+Subject: Job 4107: </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 1600000000; wait; echo 'DONE'> in cluster <phpc_cluster> Done
+
+Job </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 1600000000; wait; echo 'DONE'> was submitted from host <login-florida-poly> by user <bradleytrowbridge06> in cluster <phpc_cluster>.
+Job was executed on host(s) <1*nxta234>, in queue <medium_priority>, as user <bradleytrowbridge06> in cluster <phpc_cluster>.
+                            <1*nxta236>
+                            <1*nxta201>
+                            <1*nxta206>
+                            <1*nxta207>
+                            <1*nxta208>
+                            <1*nxta209>
+                            <1*nxta242>
+                            <1*nxta243>
+                            <1*nxta244>
+                            <1*nxta245>
+                            <1*nxta246>
+</home/bradleytrowbridge06> was used as the home directory.
+</home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array> was used as the working directory.
+Started at Sun Apr  9 01:57:46 2017
+Results reported at Sun Apr  9 01:57:46 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 1600000000; wait; echo 'DONE'
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :               1.21 sec.
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between total requested memory and actual max usage.)
+
+The output (if any) follows:
+
+my_mpi_array_lab.o: Rank 0:8: MPI_Init: ibv_create_cq() failed
+MPI Application rank 5 killed before MPI_Finalize() with signal 15
+my_mpi_array_lab.o: Rank 0:8: MPI_Init: Can't initialize RDMA device
+my_mpi_array_lab.o: Rank 0:8: MPI_Init: Internal Error: Cannot initialize RDMA protocol
+MPI Application rank 8 exited before MPI_Init() with status 1
+MPI Application rank 6 killed before MPI_Finalize() with signal 15
+MPI Application rank 7 killed before MPI_Finalize() with signal 15
+DONE

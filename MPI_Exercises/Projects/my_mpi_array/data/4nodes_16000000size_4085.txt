@@ -1,0 +1,70 @@
+Sender: LSF System <phpcadmin@nxta230>
+Subject: Job 4085: </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 16000000; wait; echo 'DONE'> in cluster <phpc_cluster> Done
+
+Job </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 16000000; wait; echo 'DONE'> was submitted from host <login-florida-poly> by user <bradleytrowbridge06> in cluster <phpc_cluster>.
+Job was executed on host(s) <1*nxta230>, in queue <medium_priority>, as user <bradleytrowbridge06> in cluster <phpc_cluster>.
+                            <1*nxta231>
+                            <1*nxta232>
+                            <1*nxta234>
+</home/bradleytrowbridge06> was used as the home directory.
+</home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array> was used as the working directory.
+Started at Sun Apr  9 00:51:59 2017
+Results reported at Sun Apr  9 00:52:02 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 16000000; wait; echo 'DONE'
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :               9.30 sec.
+    Max Memory :             11 MB
+    Average Memory :         11.00 MB
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between total requested memory and actual max usage.)
+    Max Swap :               397 MB
+
+    Max Processes :          8
+    Max Threads :            9
+
+The output (if any) follows:
+
+MPI task 1 has started...
+Chunk sizes: 4000000
+MPI task 3 has started...
+Chunk sizes: 4000000
+MPI task 2 has started...
+Chunk sizes: 4000000
+MPI task 0 has started...
+Chunk sizes: 4000000
+Starting master task ID: 0
+Starting worker task. ID: 1
+Starting worker task. ID: 3
+Starting worker task. ID: 2
+Initialized array sum = 133570798551040.000000
+Sent 4000000 elements to task 1 offset= 4000000
+ID 1 is updating array
+Sent 4000000 elements to task 2 offset= 8000000
+ID 2 is updating array
+Sent 4000000 elements to task 3 offset= 12000000
+ID 3 is updating array
+ID 0 is updating array
+Task 2 mysum = 79830028648448.000000
+Task 1 mysum = 48840480653312.000000
+Task 3 mysum = 116186717093888.000000
+Task 0 mysum = 15988588281856.000000
+Recieving results... 
+ Resulte received, now reducing... 
+Sample results: 
+  0.000000  2.000000  4.000000  6.000000  8.000000
+  8000000.000000  8000002.000000  8000004.000000  8000006.000000  8000008.000000
+  16000000.000000  16000002.000000  16000004.000000  16000006.000000  16000008.000000
+  24000000.000000  24000002.000000  24000004.000000  24000006.000000  24000008.000000
+*** Final sum= 24000008.000000 ***
+DONE

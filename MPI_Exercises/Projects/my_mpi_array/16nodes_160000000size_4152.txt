@@ -1,0 +1,248 @@
+Sender: LSF System <phpcadmin@nxta230>
+Subject: Job 4152: </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 160000000; wait; echo 'DONE'> in cluster <phpc_cluster> Done
+
+Job </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 160000000; wait; echo 'DONE'> was submitted from host <login-florida-poly> by user <bradleytrowbridge06> in cluster <phpc_cluster>.
+Job was executed on host(s) <1*nxta230>, in queue <medium_priority>, as user <bradleytrowbridge06> in cluster <phpc_cluster>.
+                            <1*nxta231>
+                            <1*nxta233>
+                            <1*nxta234>
+                            <1*nxta235>
+                            <1*nxta239>
+                            <1*nxta201>
+                            <1*nxta202>
+                            <1*nxta206>
+                            <1*nxta207>
+                            <1*nxta208>
+                            <1*nxta209>
+                            <1*nxta220>
+                            <1*nxta221>
+                            <1*nxta222>
+                            <1*nxta223>
+</home/bradleytrowbridge06> was used as the home directory.
+</home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array> was used as the working directory.
+Started at Sun Apr  9 03:48:50 2017
+Results reported at Sun Apr  9 03:49:03 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 160000000; wait; echo 'DONE'
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :               87.46 sec.
+    Max Memory :             68 MB
+    Average Memory :         68.00 MB
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between total requested memory and actual max usage.)
+    Max Swap :               475 MB
+
+    Max Processes :          8
+    Max Threads :            9
+
+The output (if any) follows:
+
+MPI task 4 has started...
+MPI task 10 has started...
+Chunk sizes: 10000000
+MPI task 12 has started...
+Chunk sizes: 10000000
+MPI task 2 has started...
+MPI task 6 has started...
+MPI task 5 has started...
+Chunk sizes: 10000000
+MPI task 3 has started...
+MPI task 0 has started...
+MPI task 7 has started...
+Chunk sizes: 10000000
+MPI task 8 has started...
+Chunk sizes: 10000000
+Starting master task ID: 0
+MPI task 11 has started...
+Chunk sizes: 10000000
+MPI task 14 has started...
+MPI task 13 has started...
+MPI task 1 has started...
+Chunk sizes: 10000000
+MPI task 9 has started...
+Chunk sizes: 10000000
+MPI task 15 has started...
+Starting worker task. ID: 10
+Chunk sizes: 10000000
+Starting worker task. ID: 2
+Starting worker task. ID: 5
+Chunk sizes: 10000000
+Starting worker task. ID: 3
+Starting worker task. ID: 12
+Chunk sizes: 10000000
+Starting worker task. ID: 4
+Chunk sizes: 10000000
+Starting worker task. ID: 6
+Chunk sizes: 10000000
+Starting worker task. ID: 7
+Starting worker task. ID: 11
+Chunk sizes: 10000000
+Starting worker task. ID: 14
+Chunk sizes: 10000000
+Starting worker task. ID: 13
+Starting worker task. ID: 1
+Chunk sizes: 10000000
+Starting worker task. ID: 15
+Starting worker task. ID: 9
+Starting worker task. ID: 8
+Initialized array sum = 4503599627370496.000000
+Function master_initialize_array took 3.000000 s
+Sent 10000000 elements to task 1 offset= 10000000
+Function worker_receive took 2.000000 s
+ID 1 is updating array
+Sent 10000000 elements to task 2 offset= 20000000
+Function worker_receive took 2.000000 s
+ID 2 is updating array
+Sent 10000000 elements to task 3 offset= 30000000
+Function worker_receive took 2.000000 s
+ID 3 is updating array
+Sent 10000000 elements to task 4 offset= 40000000
+Function worker_receive took 2.000000 s
+ID 4 is updating array
+Task 1 mysum = 290630471254016.000000
+Task 2 mysum = 542102819700736.000000
+Sent 10000000 elements to task 5 offset= 50000000
+Function worker_receive took 2.000000 s
+ID 5 is updating array
+Sent 10000000 elements to task 6 offset= 60000000
+Function worker_receive took 2.000000 s
+ID 6 is updating array
+Task 3 mysum = 662329859506176.000000
+Task 4 mysum = 818502453690368.000000
+Sent 10000000 elements to task 7 offset= 70000000
+Function worker_receive took 2.000000 s
+ID 7 is updating array
+Sent 10000000 elements to task 8 offset= 80000000
+Function worker_receive took 2.000000 s
+ID 8 is updating array
+Task 5 mysum = 1154461976231936.000000
+Sent 10000000 elements to task 9 offset= 90000000
+Function worker_receive took 2.000000 s
+ID 9 is updating array
+Sent 10000000 elements to task 10 offset= 100000000
+Function worker_receive took 2.000000 s
+ID 10 is updating array
+Task 6 mysum = 1307448308662272.000000
+Sent 10000000 elements to task 11 offset= 110000000
+Function worker_receive took 2.000000 s
+ID 11 is updating array
+Task 7 mysum = 1360895821217792.000000
+Task 8 mysum = 1614781538631680.000000
+Sent 10000000 elements to task 12 offset= 120000000
+Function worker_receive took 2.000000 s
+ID 12 is updating array
+Task 9 mysum = 1682648732794880.000000
+Task 10 mysum = 2308780876365824.000000
+Task 11 mysum = 2392762250952704.000000
+Sent 10000000 elements to task 13 offset= 130000000
+Function worker_receive took 3.000000 s
+ID 13 is updating array
+Sent 10000000 elements to task 14 offset= 140000000
+Function worker_receive took 3.000000 s
+ID 14 is updating array
+Sent 10000000 elements to task 15 offset= 150000000
+Function worker_receive took 3.000000 s
+ID 15 is updating array
+Function master_delegate_tasks took 0.000000 s
+ID 0 is updating array
+Task 12 mysum = 2608373904179200.000000
+Task 13 mysum = 2679814511132672.000000
+Task 14 mysum = 2697853910646784.000000
+Task 0 mysum = 97429756051456.000000
+Recieving results... 
+Function worker_reply took 0.000000 s
+Function worker_task took 4.000000 s
+Function mpi_start_tasks took 4.000000 s
+Function worker_reply took 0.000000 s
+Task 15 mysum = 2859277303676928.000000
+Function worker_reply took 0.000000 s
+Function worker_task took 4.000000 s
+Function mpi_start_tasks took 4.000000 s
+Function worker_task took 4.000000 s
+Function mpi_start_tasks took 4.000000 s
+Function worker_reply took 0.000000 s
+Function worker_reply took 0.000000 s
+Function worker_task took 4.000000 s
+Function mpi_start_tasks took 4.000000 s
+Function worker_reply took 0.000000 s
+Function worker_reply took 0.000000 s
+Function worker_task took 4.000000 s
+Function mpi_start_tasks took 4.000000 s
+Function worker_task took 4.000000 s
+Function mpi_start_tasks took 4.000000 s
+Function worker_task took 4.000000 s
+Function mpi_start_tasks took 4.000000 s
+Function worker_reply took 0.000000 s
+Function worker_reply took 0.000000 s
+Function worker_task took 4.000000 s
+Function mpi_start_tasks took 4.000000 s
+Function worker_reply took 0.000000 s
+Function worker_reply took 0.000000 s
+Function worker_task took 4.000000 s
+Function mpi_start_tasks took 4.000000 s
+Function worker_task took 4.000000 s
+Function mpi_start_tasks took 4.000000 s
+Function worker_reply took 0.000000 s
+Function worker_reply took 0.000000 s
+Function worker_task took 4.000000 s
+Function mpi_start_tasks took 4.000000 s
+Function worker_reply took 0.000000 s
+ Resulte received, now reducing... 
+Function worker_reply took 0.000000 s
+Function master_collect_results took 0.000000 s
+Function worker_task took 5.000000 s
+Function worker_task took 4.000000 s
+Function worker_task took 4.000000 s
+Function worker_task took 4.000000 s
+Function mpi_start_tasks took 5.000000 s
+Function mpi_start_tasks took 4.000000 s
+Function mpi_start_tasks took 4.000000 s
+Function mpi_start_tasks took 4.000000 s
+Sample results: 
+  0.000000  2.000000  4.000000  6.000000  8.000000
+  20000000.000000  20000002.000000  20000004.000000  20000006.000000  20000008.000000
+  40000000.000000  40000000.000000  40000004.000000  40000008.000000  40000008.000000
+  60000000.000000  60000000.000000  60000004.000000  60000008.000000  60000008.000000
+  80000000.000000  80000000.000000  80000000.000000  80000008.000000  80000008.000000
+  100000000.000000  100000000.000000  100000000.000000  100000008.000000  100000008.000000
+  120000000.000000  120000000.000000  120000000.000000  120000008.000000  120000008.000000
+  140000000.000000  140000000.000000  140000000.000000  140000000.000000  140000000.000000
+  160000000.000000  160000000.000000  160000000.000000  160000000.000000  160000000.000000
+  180000000.000000  180000000.000000  180000000.000000  180000000.000000  180000000.000000
+  200000000.000000  200000000.000000  200000000.000000  200000000.000000  200000000.000000
+  220000000.000000  220000000.000000  220000000.000000  220000000.000000  220000000.000000
+  240000000.000000  240000000.000000  240000000.000000  240000000.000000  240000000.000000
+  260000000.000000  260000000.000000  260000000.000000  260000000.000000  260000000.000000
+  280000000.000000  280000000.000000  280000000.000000  280000000.000000  280000000.000000
+  300000000.000000  300000000.000000  300000000.000000  300000000.000000  300000000.000000
+*** Final sum= 300000000.000000 ***
+Function master_show_results took 0.000000 s
+Function master_task took 4.000000 s
+Function mpi_start_tasks took 4.000000 s
+Function main took 5.000000 s
+Function main took 5.000000 s
+Function main took 5.000000 s
+Function main took 5.000000 s
+Function main took 5.000000 s
+Function main took 5.000000 s
+Function main took 5.000000 s
+Function main took 5.000000 s
+Function main took 5.000000 s
+Function main took 5.000000 s
+Function main took 5.000000 s
+Function main took 5.000000 s
+Function main took 5.000000 s
+Function main took 5.000000 s
+Function main took 5.000000 s
+Function main took 5.000000 s
+DONE

@@ -1,0 +1,70 @@
+Sender: LSF System <phpcadmin@nxta230>
+Subject: Job 4088: </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 1600000000; wait; echo 'DONE'> in cluster <phpc_cluster> Done
+
+Job </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 1600000000; wait; echo 'DONE'> was submitted from host <login-florida-poly> by user <bradleytrowbridge06> in cluster <phpc_cluster>.
+Job was executed on host(s) <1*nxta230>, in queue <medium_priority>, as user <bradleytrowbridge06> in cluster <phpc_cluster>.
+                            <1*nxta231>
+                            <1*nxta232>
+                            <1*nxta233>
+</home/bradleytrowbridge06> was used as the home directory.
+</home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array> was used as the working directory.
+Started at Sun Apr  9 01:33:27 2017
+Results reported at Sun Apr  9 01:34:41 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 1600000000; wait; echo 'DONE'
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :               291.99 sec.
+    Max Memory :             18384 MB
+    Average Memory :         5436.80 MB
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between total requested memory and actual max usage.)
+    Max Swap :               19774 MB
+
+    Max Processes :          12
+    Max Threads :            13
+
+The output (if any) follows:
+
+MPI task 0 has started...
+Chunk sizes: 400000000
+Starting master task ID: 0
+MPI task 3 has started...
+MPI task 2 has started...
+MPI task 1 has started...
+Chunk sizes: 400000000
+Chunk sizes: 400000000
+Starting worker task. ID: 2
+Chunk sizes: 400000000
+Starting worker task. ID: 3
+Starting worker task. ID: 1
+Initialized array sum = 36028797018963968.000000
+Sent 400000000 elements to task 1 offset= 400000000
+ID 1 is updating array
+Sent 400000000 elements to task 2 offset= 800000000
+ID 2 is updating array
+Task 1 mysum = 36028797018963968.000000
+Sent 400000000 elements to task 3 offset= 1200000000
+ID 3 is updating array
+ID 0 is updating array
+Task 2 mysum = 72057594037927936.000000
+Task 3 mysum = 72057594037927936.000000
+Task 0 mysum = 18014398509481984.000000
+Recieving results... 
+ Resulte received, now reducing... 
+Sample results: 
+  0.000000  2.000000  4.000000  6.000000  8.000000
+  800000000.000000  800000000.000000  800000000.000000  800000000.000000  800000000.000000
+  1600000000.000000  1600000000.000000  1600000000.000000  1600000000.000000  1600000000.000000
+  2400000000.000000  2400000000.000000  2400000000.000000  2400000000.000000  2400000000.000000
+*** Final sum= 2400000000.000000 ***
+DONE

@@ -1,0 +1,96 @@
+Sender: LSF System <phpcadmin@nxta230>
+Subject: Job 4094: </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 1600000; wait; echo 'DONE'> in cluster <phpc_cluster> Done
+
+Job </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 1600000; wait; echo 'DONE'> was submitted from host <login-florida-poly> by user <bradleytrowbridge06> in cluster <phpc_cluster>.
+Job was executed on host(s) <1*nxta230>, in queue <medium_priority>, as user <bradleytrowbridge06> in cluster <phpc_cluster>.
+                            <1*nxta233>
+                            <1*nxta234>
+                            <1*nxta235>
+                            <1*nxta201>
+                            <1*nxta202>
+                            <1*nxta205>
+                            <1*nxta206>
+</home/bradleytrowbridge06> was used as the home directory.
+</home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array> was used as the working directory.
+Started at Sun Apr  9 01:41:29 2017
+Results reported at Sun Apr  9 01:41:29 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 1600000; wait; echo 'DONE'
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :               3.76 sec.
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between total requested memory and actual max usage.)
+
+The output (if any) follows:
+
+MPI task 1 has started...
+MPI task 0 has started...
+MPI task 6 has started...
+Chunk sizes: 200000
+Chunk sizes: 200000
+MPI task 4 has started...
+MPI task 7 has started...
+Chunk sizes: 200000
+MPI task 2 has started...
+Chunk sizes: 200000
+MPI task 5 has started...
+MPI task 3 has started...
+Starting master task ID: 0
+Chunk sizes: 200000
+Starting worker task. ID: 1
+Starting worker task. ID: 6
+Chunk sizes: 200000
+Starting worker task. ID: 4
+Starting worker task. ID: 7
+Starting worker task. ID: 2
+Chunk sizes: 200000
+Starting worker task. ID: 5
+Chunk sizes: 200000
+Starting worker task. ID: 3
+Initialized array sum = 1280253886464.000000
+Sent 200000 elements to task 1 offset= 200000
+ID 1 is updating array
+Sent 200000 elements to task 2 offset= 400000
+ID 2 is updating array
+Sent 200000 elements to task 3 offset= 600000
+ID 3 is updating array
+Sent 200000 elements to task 4 offset= 800000
+ID 4 is updating array
+Sent 200000 elements to task 5 offset= 1000000
+ID 5 is updating array
+Sent 200000 elements to task 6 offset= 1200000
+ID 6 is updating array
+Sent 200000 elements to task 7 offset= 1400000
+ID 7 is updating array
+ID 0 is updating array
+Task 2 mysum = 200007499776.000000
+Task 4 mysum = 360045707264.000000
+Task 1 mysum = 120002117632.000000
+Task 3 mysum = 280023728128.000000
+Task 5 mysum = 439986913280.000000
+Task 6 mysum = 519949877248.000000
+Task 7 mysum = 600072978432.000000
+Task 0 mysum = 40000118784.000000
+Recieving results... 
+ Resulte received, now reducing... 
+Sample results: 
+  0.000000  2.000000  4.000000  6.000000  8.000000
+  400000.000000  400002.000000  400004.000000  400006.000000  400008.000000
+  800000.000000  800002.000000  800004.000000  800006.000000  800008.000000
+  1200000.000000  1200002.000000  1200004.000000  1200006.000000  1200008.000000
+  1600000.000000  1600002.000000  1600004.000000  1600006.000000  1600008.000000
+  2000000.000000  2000002.000000  2000004.000000  2000006.000000  2000008.000000
+  2400000.000000  2400002.000000  2400004.000000  2400006.000000  2400008.000000
+  2800000.000000  2800002.000000  2800004.000000  2800006.000000  2800008.000000
+*** Final sum= 2800008.000000 ***
+DONE

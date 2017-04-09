@@ -1,0 +1,70 @@
+Sender: LSF System <phpcadmin@nxta222>
+Subject: Job 4123: </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 1600; wait; echo 'DONE'> in cluster <phpc_cluster> Exited
+
+Job </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 1600; wait; echo 'DONE'> was submitted from host <login-florida-poly> by user <bradleytrowbridge06> in cluster <phpc_cluster>.
+Job was executed on host(s) <1*nxta222>, in queue <medium_priority>, as user <bradleytrowbridge06> in cluster <phpc_cluster>.
+                            <1*nxta214>
+                            <1*nxta219>
+                            <1*nxta216>
+                            <1*nxta205>
+                            <1*nxta230>
+                            <1*nxta209>
+                            <1*nxta243>
+                            <1*nxta244>
+                            <1*nxta231>
+                            <1*nxta211>
+                            <1*nxta234>
+                            <1*nxta241>
+                            <1*nxta208>
+                            <1*nxta218>
+                            <1*nxta232>
+                            <1*nxta229>
+                            <1*nxta221>
+                            <1*nxta236>
+                            <1*nxta237>
+</home/bradleytrowbridge06> was used as the home directory.
+</home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array> was used as the working directory.
+Started at Sun Apr  9 02:10:56 2017
+Results reported at Sun Apr  9 02:14:26 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 1600; wait; echo 'DONE'
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with signal termination: Alarm clock.
+
+Resource usage summary:
+
+    CPU time :               1.76 sec.
+    Max Memory :             12 MB
+    Average Memory :         7.67 MB
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between total requested memory and actual max usage.)
+    Max Swap :               354 MB
+
+    Max Processes :          7
+    Max Threads :            8
+
+The output (if any) follows:
+
+my_mpi_array_lab.o: Rank 0:7: MPI_Init: ibv_create_cq() failed
+my_mpi_array_lab.o: Rank 0:7: MPI_Init: Can't initialize RDMA device
+MPI Application rank 8 killed before MPI_Finalize() with signal 15
+MPI Application rank 6 killed before MPI_Finalize() with signal 15
+my_mpi_array_lab.o: Rank 0:7: MPI_Init: Internal Error: Cannot initialize RDMA protocol
+MPI Application rank 7 exited before MPI_Init() with status 1
+MPI Application rank 9 killed before MPI_Finalize() with signal 15
+mpid: Internal Error: mpid lost connection to mpirun: exiting
+mpid: Bad file descriptor
+mpid: Bad file descriptor
+mpid: Bad file descriptor
+MPI Application rank 0 exited before MPI_Init() with status 1
+MPI Application rank 4 exited before MPI_Init() with status 1
+DONE
+MPI Application rank 2 exited before MPI_Init() with status 1
+MPI Application rank 3 exited before MPI_Init() with status 1

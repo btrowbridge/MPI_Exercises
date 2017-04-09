@@ -1,0 +1,128 @@
+Sender: LSF System <phpcadmin@nxta230>
+Subject: Job 4099: </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 1600; wait; echo 'DONE'> in cluster <phpc_cluster> Done
+
+Job </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 1600; wait; echo 'DONE'> was submitted from host <login-florida-poly> by user <bradleytrowbridge06> in cluster <phpc_cluster>.
+Job was executed on host(s) <1*nxta230>, in queue <medium_priority>, as user <bradleytrowbridge06> in cluster <phpc_cluster>.
+                            <1*nxta233>
+                            <1*nxta234>
+                            <1*nxta235>
+                            <1*nxta236>
+                            <1*nxta237>
+                            <1*nxta238>
+                            <1*nxta239>
+                            <1*nxta201>
+                            <1*nxta203>
+                            <1*nxta204>
+                            <1*nxta205>
+</home/bradleytrowbridge06> was used as the home directory.
+</home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array> was used as the working directory.
+Started at Sun Apr  9 01:51:10 2017
+Results reported at Sun Apr  9 01:51:11 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 1600; wait; echo 'DONE'
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :               5.14 sec.
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between total requested memory and actual max usage.)
+
+The output (if any) follows:
+
+MPI task 8 has started...
+MPI task 11 has started...
+Chunk sizes: 133
+MPI task 2 has started...
+MPI task 10 has started...
+MPI task 4 has started...
+Chunk sizes: 133
+MPI task 3 has started...
+Chunk sizes: 133
+MPI task 9 has started...
+Chunk sizes: 133
+MPI task 5 has started...
+Chunk sizes: 133
+MPI task 7 has started...
+MPI task 1 has started...
+MPI task 6 has started...
+MPI task 0 has started...
+Chunk sizes: 133
+Starting master task ID: 0
+Initialized array sum = 1279200.000000
+Sent 133 elements to task 1 offset= 133
+Sent 133 elements to task 2 offset= 266
+Sent 133 elements to task 3 offset= 399
+Sent 133 elements to task 4 offset= 532
+Sent 133 elements to task 5 offset= 665
+Sent 133 elements to task 6 offset= 798
+Sent 133 elements to task 7 offset= 931
+Sent 133 elements to task 8 offset= 1064
+Sent 133 elements to task 9 offset= 1197
+Sent 133 elements to task 10 offset= 1330
+Sent 133 elements to task 11 offset= 1463
+ID 0 is updating array
+Task 0 mysum = 17556.000000
+Recieving results... 
+ Resulte received, now reducing... 
+Sample results: 
+  0.000000  2.000000  4.000000  6.000000  8.000000
+  266.000000  268.000000  270.000000  272.000000  274.000000
+  532.000000  534.000000  536.000000  538.000000  540.000000
+  798.000000  800.000000  802.000000  804.000000  806.000000
+  1064.000000  1066.000000  1068.000000  1070.000000  1072.000000
+  1330.000000  1332.000000  1334.000000  1336.000000  1338.000000
+  1596.000000  1598.000000  1600.000000  1602.000000  1604.000000
+  1862.000000  1864.000000  1866.000000  1868.000000  1870.000000
+  2128.000000  2130.000000  2132.000000  2134.000000  2136.000000
+  2394.000000  2396.000000  2398.000000  2400.000000  2402.000000
+  2660.000000  2662.000000  2664.000000  2666.000000  2668.000000
+  2926.000000  2928.000000  2930.000000  2932.000000  2934.000000
+*** Final sum= 2934.000000 ***
+Starting worker task. ID: 4
+Chunk sizes: 133
+Starting worker task. ID: 10
+Chunk sizes: 133
+Starting worker task. ID: 8
+Starting worker task. ID: 11
+Chunk sizes: 133
+Starting worker task. ID: 2
+ID 4 is updating array
+ID 10 is updating array
+ID 8 is updating array
+ID 11 is updating array
+ID 2 is updating array
+Task 4 mysum = 159068.000000
+Task 10 mysum = 371336.000000
+Task 8 mysum = 300580.000000
+Task 11 mysum = 406714.000000
+Task 2 mysum = 88312.000000
+Starting worker task. ID: 5
+Chunk sizes: 133
+Starting worker task. ID: 7
+Chunk sizes: 133
+Starting worker task. ID: 1
+Chunk sizes: 133
+Starting worker task. ID: 6
+Starting worker task. ID: 3
+Starting worker task. ID: 9
+ID 5 is updating array
+ID 7 is updating array
+ID 1 is updating array
+ID 6 is updating array
+ID 3 is updating array
+ID 9 is updating array
+Task 5 mysum = 194446.000000
+Task 7 mysum = 265202.000000
+Task 1 mysum = 52934.000000
+Task 6 mysum = 229824.000000
+Task 3 mysum = 123690.000000
+Task 9 mysum = 335958.000000
+DONE

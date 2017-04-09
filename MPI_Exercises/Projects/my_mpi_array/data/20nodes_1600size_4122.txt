@@ -1,0 +1,57 @@
+Sender: LSF System <phpcadmin@nxta233>
+Subject: Job 4122: </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 1600; wait; echo 'DONE'> in cluster <phpc_cluster> Exited
+
+Job </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 1600; wait; echo 'DONE'> was submitted from host <login-florida-poly> by user <bradleytrowbridge06> in cluster <phpc_cluster>.
+Job was executed on host(s) <1*nxta233>, in queue <medium_priority>, as user <bradleytrowbridge06> in cluster <phpc_cluster>.
+                            <1*nxta235>
+                            <1*nxta238>
+                            <1*nxta201>
+                            <1*nxta207>
+                            <1*nxta220>
+                            <1*nxta228>
+                            <1*nxta245>
+                            <1*nxta247>
+                            <1*nxta212>
+                            <1*nxta214>
+                            <1*nxta219>
+                            <1*nxta222>
+                            <1*nxta225>
+                            <1*nxta213>
+                            <1*nxta226>
+                            <1*nxta242>
+                            <1*nxta248>
+                            <1*nxta217>
+                            <1*nxta240>
+</home/bradleytrowbridge06> was used as the home directory.
+</home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array> was used as the working directory.
+Started at Sun Apr  9 02:10:12 2017
+Results reported at Sun Apr  9 02:11:13 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 1600; wait; echo 'DONE'
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with signal termination: Killed.
+
+Resource usage summary:
+
+    CPU time :               399.27 sec.
+    Max Memory :             12 MB
+    Average Memory :         12.00 MB
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between total requested memory and actual max usage.)
+    Max Swap :               392 MB
+
+    Max Processes :          8
+    Max Threads :            9
+
+The output (if any) follows:
+
+mpid: Bad file descriptor
+mpid: Bad file descriptor
+mpid: Bad file descriptor

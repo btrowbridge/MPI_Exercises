@@ -1,0 +1,67 @@
+Sender: LSF System <phpcadmin@nxta230>
+Subject: Job 4135: </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 160; wait; echo 'DONE'> in cluster <phpc_cluster> Done
+
+Job </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 160; wait; echo 'DONE'> was submitted from host <login-florida-poly> by user <bradleytrowbridge06> in cluster <phpc_cluster>.
+Job was executed on host(s) <1*nxta230>, in queue <medium_priority>, as user <bradleytrowbridge06> in cluster <phpc_cluster>.
+                            <1*nxta232>
+                            <1*nxta233>
+                            <1*nxta234>
+                            <1*nxta235>
+                            <1*nxta236>
+                            <1*nxta237>
+                            <1*nxta238>
+                            <1*nxta239>
+                            <1*nxta201>
+                            <1*nxta203>
+                            <1*nxta204>
+                            <1*nxta205>
+                            <1*nxta207>
+                            <1*nxta220>
+                            <1*nxta223>
+                            <1*nxta224>
+                            <1*nxta225>
+                            <1*nxta229>
+                            <1*nxta240>
+                            <1*nxta241>
+                            <1*nxta243>
+                            <1*nxta245>
+                            <1*nxta247>
+</home/bradleytrowbridge06> was used as the home directory.
+</home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array> was used as the working directory.
+Started at Sun Apr  9 02:32:07 2017
+Results reported at Sun Apr  9 02:32:08 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 160; wait; echo 'DONE'
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :               2.19 sec.
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between total requested memory and actual max usage.)
+
+The output (if any) follows:
+
+my_mpi_array_lab.o: Rank 0:21: MPI_Init: ibv_create_cq() failed
+MPI Application rank 19 killed before MPI_Init() with signal 15
+MPI Application rank 2 killed before MPI_Init() with signal 15
+MPI Application rank 6 killed before MPI_Init() with signal 15
+MPI Application rank 17 killed before MPI_Init() with signal 15
+MPI Application rank 3 killed before MPI_Init() with signal 15
+MPI Application rank 11 killed before MPI_Init() with signal 15
+MPI Application rank 22 killed before MPI_Finalize() with signal 15
+MPI Application rank 7 killed before MPI_Init() with signal 15
+MPI Application rank 5 killed before MPI_Init() with signal 15
+MPI Application rank 10 killed before MPI_Init() with signal 15
+my_mpi_array_lab.o: Rank 0:21: MPI_Init: Can't initialize RDMA device
+my_mpi_array_lab.o: Rank 0:21: MPI_Init: Internal Error: Cannot initialize RDMA protocol
+MPI Application rank 21 exited before MPI_Init() with status 1
+mpid: Internal Error: mpid lost connection to mpirun: exiting
+DONE

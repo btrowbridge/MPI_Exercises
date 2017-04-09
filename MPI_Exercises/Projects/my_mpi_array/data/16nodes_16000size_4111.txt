@@ -1,0 +1,160 @@
+Sender: LSF System <phpcadmin@nxta230>
+Subject: Job 4111: </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 16000; wait; echo 'DONE'> in cluster <phpc_cluster> Done
+
+Job </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 16000; wait; echo 'DONE'> was submitted from host <login-florida-poly> by user <bradleytrowbridge06> in cluster <phpc_cluster>.
+Job was executed on host(s) <1*nxta230>, in queue <medium_priority>, as user <bradleytrowbridge06> in cluster <phpc_cluster>.
+                            <1*nxta231>
+                            <1*nxta232>
+                            <1*nxta233>
+                            <1*nxta234>
+                            <1*nxta235>
+                            <1*nxta237>
+                            <1*nxta239>
+                            <1*nxta202>
+                            <1*nxta205>
+                            <1*nxta206>
+                            <1*nxta207>
+                            <1*nxta208>
+                            <1*nxta209>
+                            <1*nxta220>
+                            <1*nxta221>
+</home/bradleytrowbridge06> was used as the home directory.
+</home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array> was used as the working directory.
+Started at Sun Apr  9 02:01:37 2017
+Results reported at Sun Apr  9 02:01:39 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 16000; wait; echo 'DONE'
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :               6.83 sec.
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between total requested memory and actual max usage.)
+
+The output (if any) follows:
+
+MPI task 12 has started...
+MPI task 5 has started...
+Chunk sizes: 1000
+MPI task 7 has started...
+Chunk sizes: 1000
+MPI task 4 has started...
+MPI task 9 has started...
+MPI task 8 has started...
+MPI task 10 has started...
+Chunk sizes: 1000
+MPI task 13 has started...
+Chunk sizes: 1000
+MPI task 15 has started...
+Chunk sizes: 1000
+MPI task 2 has started...
+Chunk sizes: 1000
+MPI task 1 has started...
+Chunk sizes: 1000
+MPI task 14 has started...
+Chunk sizes: 1000
+MPI task 3 has started...
+MPI task 11 has started...
+MPI task 6 has started...
+MPI task 0 has started...
+Chunk sizes: 1000
+Starting master task ID: 0
+Initialized array sum = 127986896.000000
+Sent 1000 elements to task 1 offset= 1000
+Sent 1000 elements to task 2 offset= 2000
+Sent 1000 elements to task 3 offset= 3000
+Sent 1000 elements to task 4 offset= 4000
+Sent 1000 elements to task 5 offset= 5000
+Sent 1000 elements to task 6 offset= 6000
+Sent 1000 elements to task 7 offset= 7000
+Sent 1000 elements to task 8 offset= 8000
+Sent 1000 elements to task 9 offset= 9000
+Sent 1000 elements to task 10 offset= 10000
+Sent 1000 elements to task 11 offset= 11000
+Sent 1000 elements to task 12 offset= 12000
+Sent 1000 elements to task 13 offset= 13000
+Sent 1000 elements to task 14 offset= 14000
+Sent 1000 elements to task 15 offset= 15000
+ID 0 is updating array
+Task 0 mysum = 999000.000000
+Recieving results... 
+ Resulte received, now reducing... 
+Sample results: 
+  0.000000  2.000000  4.000000  6.000000  8.000000
+  2000.000000  2002.000000  2004.000000  2006.000000  2008.000000
+  4000.000000  4002.000000  4004.000000  4006.000000  4008.000000
+  6000.000000  6002.000000  6004.000000  6006.000000  6008.000000
+  8000.000000  8002.000000  8004.000000  8006.000000  8008.000000
+  10000.000000  10002.000000  10004.000000  10006.000000  10008.000000
+  12000.000000  12002.000000  12004.000000  12006.000000  12008.000000
+  14000.000000  14002.000000  14004.000000  14006.000000  14008.000000
+  16000.000000  16002.000000  16004.000000  16006.000000  16008.000000
+  18000.000000  18002.000000  18004.000000  18006.000000  18008.000000
+  20000.000000  20002.000000  20004.000000  20006.000000  20008.000000
+  22000.000000  22002.000000  22004.000000  22006.000000  22008.000000
+  24000.000000  24002.000000  24004.000000  24006.000000  24008.000000
+  26000.000000  26002.000000  26004.000000  26006.000000  26008.000000
+  28000.000000  28002.000000  28004.000000  28006.000000  28008.000000
+  30000.000000  30002.000000  30004.000000  30006.000000  30008.000000
+*** Final sum= 30008.000000 ***
+Chunk sizes: 1000
+Starting worker task. ID: 4
+Chunk sizes: 1000
+Starting worker task. ID: 9
+Chunk sizes: 1000
+Starting worker task. ID: 12
+Chunk sizes: 1000
+Starting worker task. ID: 8
+Starting worker task. ID: 5
+Starting worker task. ID: 7
+ID 4 is updating array
+ID 9 is updating array
+ID 12 is updating array
+ID 8 is updating array
+ID 5 is updating array
+ID 7 is updating array
+Task 4 mysum = 8999000.000000
+Task 9 mysum = 18999000.000000
+Task 12 mysum = 24999000.000000
+Task 8 mysum = 16999000.000000
+Task 5 mysum = 10999000.000000
+Task 7 mysum = 14999000.000000
+Starting worker task. ID: 15
+Starting worker task. ID: 2
+Starting worker task. ID: 13
+Starting worker task. ID: 1
+Starting worker task. ID: 14
+Chunk sizes: 1000
+Starting worker task. ID: 11
+Starting worker task. ID: 10
+Chunk sizes: 1000
+Starting worker task. ID: 3
+Chunk sizes: 1000
+Starting worker task. ID: 6
+ID 15 is updating array
+ID 2 is updating array
+ID 13 is updating array
+ID 1 is updating array
+ID 14 is updating array
+ID 11 is updating array
+ID 10 is updating array
+ID 3 is updating array
+ID 6 is updating array
+Task 15 mysum = 30999000.000000
+Task 2 mysum = 4999000.000000
+Task 13 mysum = 26999000.000000
+Task 1 mysum = 2999000.000000
+Task 14 mysum = 28999000.000000
+Task 11 mysum = 22999000.000000
+Task 10 mysum = 20999000.000000
+Task 3 mysum = 6999000.000000
+Task 6 mysum = 12999000.000000
+DONE

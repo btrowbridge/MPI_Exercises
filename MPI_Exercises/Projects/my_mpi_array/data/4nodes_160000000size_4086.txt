@@ -1,0 +1,70 @@
+Sender: LSF System <phpcadmin@nxta233>
+Subject: Job 4086: </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 160000000; wait; echo 'DONE'> in cluster <phpc_cluster> Done
+
+Job </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 160000000; wait; echo 'DONE'> was submitted from host <login-florida-poly> by user <bradleytrowbridge06> in cluster <phpc_cluster>.
+Job was executed on host(s) <1*nxta233>, in queue <medium_priority>, as user <bradleytrowbridge06> in cluster <phpc_cluster>.
+                            <1*nxta234>
+                            <1*nxta235>
+                            <1*nxta236>
+</home/bradleytrowbridge06> was used as the home directory.
+</home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array> was used as the working directory.
+Started at Sun Apr  9 00:54:46 2017
+Results reported at Sun Apr  9 00:54:54 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 160000000; wait; echo 'DONE'
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :               32.78 sec.
+    Max Memory :             11 MB
+    Average Memory :         11.00 MB
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between total requested memory and actual max usage.)
+    Max Swap :               397 MB
+
+    Max Processes :          8
+    Max Threads :            9
+
+The output (if any) follows:
+
+MPI task 0 has started...
+Chunk sizes: 40000000
+Starting master task ID: 0
+MPI task 2 has started...
+Chunk sizes: 40000000
+MPI task 1 has started...
+MPI task 3 has started...
+Chunk sizes: 40000000
+Starting worker task. ID: 1
+Starting worker task. ID: 2
+Chunk sizes: 40000000
+Starting worker task. ID: 3
+Initialized array sum = 4503599627370496.000000
+Sent 40000000 elements to task 1 offset= 40000000
+ID 1 is updating array
+Sent 40000000 elements to task 2 offset= 80000000
+ID 2 is updating array
+Task 1 mysum = 4503599627370496.000000
+Sent 40000000 elements to task 3 offset= 120000000
+ID 3 is updating array
+ID 0 is updating array
+Task 2 mysum = 4503599627370496.000000
+Task 0 mysum = 1991008996818944.000000
+Recieving results... 
+Task 3 mysum = 9007199254740992.000000
+ Resulte received, now reducing... 
+Sample results: 
+  0.000000  2.000000  4.000000  6.000000  8.000000
+  80000000.000000  80000000.000000  80000000.000000  80000008.000000  80000008.000000
+  160000000.000000  160000000.000000  160000000.000000  160000000.000000  160000000.000000
+  240000000.000000  240000000.000000  240000000.000000  240000000.000000  240000000.000000
+*** Final sum= 240000000.000000 ***
+DONE

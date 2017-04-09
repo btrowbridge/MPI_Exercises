@@ -1,0 +1,135 @@
+Sender: LSF System <phpcadmin@nxta230>
+Subject: Job 3627: </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/mpi_array_lab; wait> in cluster <phpc_cluster> Done
+
+Job </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/mpi_array_lab; wait> was submitted from host <login-florida-poly> by user <bradleytrowbridge06> in cluster <phpc_cluster>.
+Job was executed on host(s) <1*nxta230>, in queue <medium_priority>, as user <bradleytrowbridge06> in cluster <phpc_cluster>.
+                            <1*nxta231>
+                            <1*nxta232>
+                            <1*nxta233>
+                            <1*nxta235>
+                            <1*nxta236>
+                            <1*nxta237>
+                            <1*nxta238>
+                            <1*nxta239>
+                            <1*nxta202>
+                            <1*nxta203>
+                            <1*nxta204>
+                            <1*nxta205>
+                            <1*nxta206>
+                            <1*nxta207>
+                            <1*nxta208>
+                            <1*nxta209>
+                            <1*nxta220>
+                            <1*nxta222>
+                            <1*nxta224>
+</home/bradleytrowbridge06> was used as the home directory.
+</home/bradleytrowbridge06> was used as the working directory.
+Started at Mon Apr  3 23:39:58 2017
+Results reported at Mon Apr  3 23:40:07 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/mpi_array_lab; wait
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :               13.99 sec.
+    Max Memory :             81 MB
+    Average Memory :         81.00 MB
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between total requested memory and actual max usage.)
+    Max Swap :               468 MB
+
+    Max Processes :          8
+    Max Threads :            9
+
+The output (if any) follows:
+
+MPI task 0 has started...
+MPI task 19 has started...
+MPI task 2 has started...
+MPI task 14 has started...
+MPI task 12 has started...
+MPI task 5 has started...
+MPI task 6 has started...
+MPI task 10 has started...
+MPI task 15 has started...
+MPI task 8 has started...
+MPI task 17 has started...
+MPI task 3 has started...
+MPI task 18 has started...
+MPI task 9 has started...
+MPI task 7 has started...
+MPI task 4 has started...
+MPI task 11 has started...
+MPI task 1 has started...
+MPI task 16 has started...
+MPI task 13 has started...
+Initialized array sum = 1.335708e+14
+Sent 800000 elements to task 1 offset= 800000
+Task 1 mysum = 1.919349e+12
+Sent 800000 elements to task 2 offset= 1600000
+Sent 800000 elements to task 3 offset= 2400000
+Task 2 mysum = 3.200175e+12
+Task 3 mysum = 4.481057e+12
+Sent 800000 elements to task 4 offset= 3200000
+Sent 800000 elements to task 5 offset= 4000000
+Task 4 mysum = 5.766623e+12
+Sent 800000 elements to task 6 offset= 4800000
+Sent 800000 elements to task 7 offset= 5600000
+Task 5 mysum = 7.036865e+12
+Sent 800000 elements to task 8 offset= 6400000
+Sent 800000 elements to task 9 offset= 7200000
+Task 6 mysum = 8.312358e+12
+Task 7 mysum = 9.588380e+12
+Sent 800000 elements to task 10 offset= 8000000
+Task 8 mysum = 1.092048e+13
+Task 9 mysum = 1.215143e+13
+Task 10 mysum = 1.344761e+13
+Sent 800000 elements to task 11 offset= 8800000
+Sent 800000 elements to task 12 offset= 9600000
+Sent 800000 elements to task 13 offset= 10400000
+Task 11 mysum = 1.472078e+13
+Sent 800000 elements to task 14 offset= 11200000
+Sent 800000 elements to task 15 offset= 12000000
+Task 12 mysum = 1.600922e+13
+Sent 800000 elements to task 16 offset= 12800000
+Task 13 mysum = 1.729426e+13
+Sent 800000 elements to task 17 offset= 13600000
+Task 14 mysum = 1.852956e+13
+Task 16 mysum = 2.113580e+13
+Sent 800000 elements to task 18 offset= 14400000
+Task 15 mysum = 1.985590e+13
+Sent 800000 elements to task 19 offset= 15200000
+Task 17 mysum = 2.259334e+13
+Task 0 mysum = 6.399470e+11
+Task 18 mysum = 2.348947e+13
+Task 19 mysum = 2.496504e+13
+Sample results: 
+  0.000000e+00  2.000000e+00  4.000000e+00  6.000000e+00  8.000000e+00
+  1.600000e+06  1.600002e+06  1.600004e+06  1.600006e+06  1.600008e+06
+  3.200000e+06  3.200002e+06  3.200004e+06  3.200006e+06  3.200008e+06
+  4.800000e+06  4.800002e+06  4.800004e+06  4.800006e+06  4.800008e+06
+  6.400000e+06  6.400002e+06  6.400004e+06  6.400006e+06  6.400008e+06
+  8.000000e+06  8.000002e+06  8.000004e+06  8.000006e+06  8.000008e+06
+  9.600000e+06  9.600002e+06  9.600004e+06  9.600006e+06  9.600008e+06
+  1.120000e+07  1.120000e+07  1.120000e+07  1.120001e+07  1.120001e+07
+  1.280000e+07  1.280000e+07  1.280000e+07  1.280001e+07  1.280001e+07
+  1.440000e+07  1.440000e+07  1.440000e+07  1.440001e+07  1.440001e+07
+  1.600000e+07  1.600000e+07  1.600000e+07  1.600001e+07  1.600001e+07
+  1.760000e+07  1.760000e+07  1.760000e+07  1.760001e+07  1.760001e+07
+  1.920000e+07  1.920000e+07  1.920000e+07  1.920001e+07  1.920001e+07
+  2.080000e+07  2.080000e+07  2.080000e+07  2.080001e+07  2.080001e+07
+  2.240000e+07  2.240000e+07  2.240000e+07  2.240001e+07  2.240001e+07
+  2.400000e+07  2.400000e+07  2.400000e+07  2.400001e+07  2.400001e+07
+  2.560000e+07  2.560000e+07  2.560000e+07  2.560001e+07  2.560001e+07
+  2.720000e+07  2.720000e+07  2.720000e+07  2.720001e+07  2.720001e+07
+  2.880000e+07  2.880000e+07  2.880000e+07  2.880001e+07  2.880001e+07
+  3.040000e+07  3.040000e+07  3.040000e+07  3.040001e+07  3.040001e+07
+*** Final sum= 2.560577e+14 ***

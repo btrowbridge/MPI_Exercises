@@ -1,0 +1,198 @@
+Sender: LSF System <phpcadmin@nxta236>
+Subject: Job 4128: </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 16000000; wait; echo 'DONE'> in cluster <phpc_cluster> Done
+
+Job </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 16000000; wait; echo 'DONE'> was submitted from host <login-florida-poly> by user <bradleytrowbridge06> in cluster <phpc_cluster>.
+Job was executed on host(s) <1*nxta236>, in queue <medium_priority>, as user <bradleytrowbridge06> in cluster <phpc_cluster>.
+                            <1*nxta239>
+                            <1*nxta203>
+                            <1*nxta204>
+                            <1*nxta222>
+                            <1*nxta223>
+                            <1*nxta224>
+                            <1*nxta229>
+                            <1*nxta240>
+                            <1*nxta241>
+                            <1*nxta245>
+                            <1*nxta210>
+                            <1*nxta211>
+                            <1*nxta212>
+                            <1*nxta213>
+                            <1*nxta215>
+                            <1*nxta216>
+                            <1*nxta217>
+                            <1*nxta218>
+                            <1*nxta221>
+</home/bradleytrowbridge06> was used as the home directory.
+</home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array> was used as the working directory.
+Started at Sun Apr  9 02:20:04 2017
+Results reported at Sun Apr  9 02:20:08 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 16000000; wait; echo 'DONE'
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :               59.05 sec.
+    Max Memory :             18 MB
+    Average Memory :         18.00 MB
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between total requested memory and actual max usage.)
+    Max Swap :               403 MB
+
+    Max Processes :          8
+    Max Threads :            9
+
+The output (if any) follows:
+
+MPI task 1 has started...
+Chunk sizes: 800000
+MPI task 5 has started...
+Chunk sizes: 800000
+MPI task 2 has started...
+Chunk sizes: 800000
+MPI task 6 has started...
+Chunk sizes: 800000
+MPI task 4 has started...
+Chunk sizes: 800000
+MPI task 19 has started...
+MPI task 12 has started...
+Chunk sizes: 800000
+MPI task 10 has started...
+MPI task 18 has started...
+Chunk sizes: 800000
+MPI task 7 has started...
+Chunk sizes: 800000
+MPI task 9 has started...
+MPI task 0 has started...
+MPI task 3 has started...
+Chunk sizes: 800000
+MPI task 14 has started...
+Chunk sizes: 800000
+MPI task 17 has started...
+MPI task 15 has started...
+Chunk sizes: 800000
+MPI task 11 has started...
+Chunk sizes: 800000
+MPI task 13 has started...
+Chunk sizes: 800000
+MPI task 16 has started...
+Chunk sizes: 800000
+Starting master task ID: 0
+MPI task 8 has started...
+Chunk sizes: 800000
+Starting worker task. ID: 8
+Starting worker task. ID: 1
+Starting worker task. ID: 6
+Starting worker task. ID: 5
+Starting worker task. ID: 12
+Starting worker task. ID: 3
+Starting worker task. ID: 18
+Starting worker task. ID: 14
+Starting worker task. ID: 2
+Starting worker task. ID: 4
+Chunk sizes: 800000
+Starting worker task. ID: 9
+Starting worker task. ID: 7
+Chunk sizes: 800000
+Starting worker task. ID: 19
+Chunk sizes: 800000
+Starting worker task. ID: 17
+Starting worker task. ID: 15
+Chunk sizes: 800000
+Starting worker task. ID: 10
+Starting worker task. ID: 11
+Starting worker task. ID: 13
+Chunk sizes: 800000
+Starting worker task. ID: 16
+Initialized array sum = 133570798551040.000000
+Sent 800000 elements to task 1 offset= 800000
+ID 1 is updating array
+Sent 800000 elements to task 2 offset= 1600000
+ID 2 is updating array
+Sent 800000 elements to task 3 offset= 2400000
+ID 3 is updating array
+Sent 800000 elements to task 4 offset= 3200000
+ID 4 is updating array
+Sent 800000 elements to task 5 offset= 4000000
+ID 5 is updating array
+Sent 800000 elements to task 6 offset= 4800000
+ID 6 is updating array
+Sent 800000 elements to task 7 offset= 5600000
+ID 7 is updating array
+Sent 800000 elements to task 8 offset= 6400000
+ID 8 is updating array
+Sent 800000 elements to task 9 offset= 7200000
+ID 9 is updating array
+Sent 800000 elements to task 10 offset= 8000000
+ID 10 is updating array
+Sent 800000 elements to task 11 offset= 8800000
+ID 11 is updating array
+Sent 800000 elements to task 12 offset= 9600000
+ID 12 is updating array
+Task 2 mysum = 3200175308800.000000
+Task 1 mysum = 1919348637696.000000
+Task 3 mysum = 4481056505856.000000
+Sent 800000 elements to task 13 offset= 10400000
+ID 13 is updating array
+Task 6 mysum = 8312358174720.000000
+Task 4 mysum = 5766622740480.000000
+Task 8 mysum = 10920484929536.000000
+Task 5 mysum = 7036864561152.000000
+Task 7 mysum = 9588380270592.000000
+Task 9 mysum = 12151427170304.000000
+Sent 800000 elements to task 14 offset= 11200000
+ID 14 is updating array
+Task 10 mysum = 13447610761216.000000
+Task 11 mysum = 14720783351808.000000
+Sent 800000 elements to task 15 offset= 12000000
+ID 15 is updating array
+Task 12 mysum = 16009224257536.000000
+Sent 800000 elements to task 16 offset= 12800000
+ID 16 is updating array
+Sent 800000 elements to task 17 offset= 13600000
+ID 17 is updating array
+Sent 800000 elements to task 18 offset= 14400000
+ID 18 is updating array
+Sent 800000 elements to task 19 offset= 15200000
+ID 19 is updating array
+ID 0 is updating array
+Task 13 mysum = 17294258339840.000000
+Task 14 mysum = 18529562656768.000000
+Task 15 mysum = 19855895953408.000000
+Task 17 mysum = 22593342013440.000000
+Task 16 mysum = 21135802499072.000000
+Task 19 mysum = 24965040570368.000000
+Task 0 mysum = 639946981376.000000
+Recieving results... 
+Task 18 mysum = 23489471840256.000000
+ Resulte received, now reducing... 
+Sample results: 
+  0.000000  2.000000  4.000000  6.000000  8.000000
+  1600000.000000  1600002.000000  1600004.000000  1600006.000000  1600008.000000
+  3200000.000000  3200002.000000  3200004.000000  3200006.000000  3200008.000000
+  4800000.000000  4800002.000000  4800004.000000  4800006.000000  4800008.000000
+  6400000.000000  6400002.000000  6400004.000000  6400006.000000  6400008.000000
+  8000000.000000  8000002.000000  8000004.000000  8000006.000000  8000008.000000
+  9600000.000000  9600002.000000  9600004.000000  9600006.000000  9600008.000000
+  11200000.000000  11200002.000000  11200004.000000  11200006.000000  11200008.000000
+  12800000.000000  12800002.000000  12800004.000000  12800006.000000  12800008.000000
+  14400000.000000  14400002.000000  14400004.000000  14400006.000000  14400008.000000
+  16000000.000000  16000002.000000  16000004.000000  16000006.000000  16000008.000000
+  17600000.000000  17600002.000000  17600004.000000  17600006.000000  17600008.000000
+  19200000.000000  19200002.000000  19200004.000000  19200006.000000  19200008.000000
+  20800000.000000  20800002.000000  20800004.000000  20800006.000000  20800008.000000
+  22400000.000000  22400002.000000  22400004.000000  22400006.000000  22400008.000000
+  24000000.000000  24000002.000000  24000004.000000  24000006.000000  24000008.000000
+  25600000.000000  25600002.000000  25600004.000000  25600006.000000  25600008.000000
+  27200000.000000  27200002.000000  27200004.000000  27200006.000000  27200008.000000
+  28800000.000000  28800002.000000  28800004.000000  28800006.000000  28800008.000000
+  30400000.000000  30400002.000000  30400004.000000  30400006.000000  30400008.000000
+*** Final sum= 30400008.000000 ***
+DONE

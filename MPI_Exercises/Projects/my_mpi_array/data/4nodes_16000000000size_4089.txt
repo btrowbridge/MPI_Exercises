@@ -1,0 +1,53 @@
+Sender: LSF System <phpcadmin@nxta234>
+Subject: Job 4089: </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 16000000000; wait; echo 'DONE'> in cluster <phpc_cluster> Done
+
+Job </opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 16000000000; wait; echo 'DONE'> was submitted from host <login-florida-poly> by user <bradleytrowbridge06> in cluster <phpc_cluster>.
+Job was executed on host(s) <1*nxta234>, in queue <medium_priority>, as user <bradleytrowbridge06> in cluster <phpc_cluster>.
+                            <1*nxta235>
+                            <1*nxta236>
+                            <1*nxta237>
+</home/bradleytrowbridge06> was used as the home directory.
+</home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array> was used as the working directory.
+Started at Sun Apr  9 01:36:01 2017
+Results reported at Sun Apr  9 01:36:11 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/opt/ibm/platform_mpi/bin/mpirun -lsf -vapi /home/bradleytrowbridge06/MPI_Exercises/Projects/my_mpi_array/my_mpi_array_lab.o 16000000000; wait; echo 'DONE'
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :               8.85 sec.
+    Max Memory :             11 MB
+    Average Memory :         11.00 MB
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between total requested memory and actual max usage.)
+    Max Swap :               397 MB
+
+    Max Processes :          8
+    Max Threads :            9
+
+The output (if any) follows:
+
+MPI task 0 has started...
+MPI task 2 has started...
+Chunk sizes: -294967296
+MPI task 1 has started...
+MPI task 3 has started...
+Starting master task ID: 0
+Initialized array sum = 0.000000
+Index -294967296 out of bounds for vector of size 0
+MPI Application rank 0 exited before MPI_Finalize() with status 1
+Chunk sizes: -294967296
+Starting worker task. ID: 2
+Chunk sizes: -294967296
+Starting worker task. ID: 1
+Chunk sizes: -294967296
+Starting worker task. ID: 3
+DONE
